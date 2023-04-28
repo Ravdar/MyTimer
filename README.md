@@ -1,22 +1,33 @@
-#MyTimer
-MyTimer is a simple timer application written in Python. The application allows users to input hours, minutes, and seconds, and start a countdown timer. It also provides buttons for pausing, resetting, and restarting the timer. At the end of the countdown, the application plays a buzzer sound to notify the user.
 
-#Installation
-To run the application, make sure you have Python 3.6 or later installed on your system. You can clone this repository to your local machine using the following command:
+ # ![stopwatch](https://user-images.githubusercontent.com/97836782/235227278-2cf0dbde-9b48-472f-9a55-69ce955476cc.png) MyTimer  
+A simple timer application written in Python using the `customtkinter` library.
 
-bash
-Copy code
-git clone https://github.com/your-username/MyTimer.git
-Next, navigate to the project directory and install the necessary dependencies using pip:
+![MyTimer1](https://user-images.githubusercontent.com/97836782/235226755-22207427-80cc-4135-9e6d-0f82acf1d521.png)
+![MyTimer](https://user-images.githubusercontent.com/97836782/235228014-b267963c-e87f-4b44-b5d6-52d0af16f2e1.png)
 
-bash
-Copy code
-cd MyTimer
+# Features
+* Set hours, minutes, and seconds
+* Start, pause, and reset buttons
+* Buzzer sound at the end of the timer
+
+# Installation
+1. Clone repository:
+```python
+git clone https://github.com/Ravdar/MyTimer
+```
+2. Install the required libraries:
+```python
 pip install -r requirements.txt
-#Usage
-To start the timer, run the timer.py file using the following command:
+```
+# Usage
+After starting the timer, GUI will appear, where you can input the desired countdown time using the hours, minutes, and seconds fields. Once you click the "Play" button, the countdown will begin. You can use the "Pause" and "Restart" buttons as needed.
 
-bash
-Copy code
-python timer.py
-The timer GUI will appear, and you can input the desired countdown time using the hours, minutes, and seconds fields. Once you click the "Start" button, the countdown will begin. You can use the "Pause", "Reset", and "Restart" buttons as needed.
+# Used libraries
+* customtkinter
+* pygame
+* Pillow
+
+# Credits
+All images used in the app are from [flaticon.com](https://www.flaticon.com/).  
+The buzzer sound used in the app is from [zedge.net.](https://www.zedge.net/ringtones-and-wallpapers)
+
