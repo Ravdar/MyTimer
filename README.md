@@ -1,0 +1,2 @@
+# MyTimer
+Very simple timer
